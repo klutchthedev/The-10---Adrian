@@ -1,0 +1,6 @@
+framework module Pods_The_10___Adrian {
+  umbrella header "Pods-The 10 - Adrian-umbrella.h"
+
+  export *
+  module * { export * }
+}
