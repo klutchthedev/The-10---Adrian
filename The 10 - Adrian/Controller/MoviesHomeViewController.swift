@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import SDWebImage
+import SVProgressHUD
 
 class MoviesHomeViewController: UIViewController {
     
@@ -120,6 +121,11 @@ class MoviesHomeViewController: UIViewController {
             return
         }
         Alamofire.request(url).responseJSON { (response) in
+            if let error = response.error {
+                SVProgressHUD.showError(withStatus: error.localizedDescription)
+                
+                SVProgressHUD.dismiss(withDelay: 1.8)
+            }
             if let json = response.result.value as? [String: Any] {
                 
                 let results = json["results"] as! [[String:Any]]
@@ -143,7 +149,10 @@ class MoviesHomeViewController: UIViewController {
         }
         Alamofire.request(url).responseJSON { (response) in
             if response.error != nil {
-                print(response.error!.localizedDescription)
+                
+                SVProgressHUD.showError(withStatus: response.error?.localizedDescription)
+                
+                SVProgressHUD.dismiss(withDelay: 1.8)
             }
             if let json = response.result.value as? [String: Any] {
                 let results = json["results"] as! [[String:Any]]
@@ -187,7 +196,9 @@ class MoviesHomeViewController: UIViewController {
         }
         Alamofire.request(url).responseJSON { (response) in
             if response.error != nil {
-               print(response.error!.localizedDescription)
+                SVProgressHUD.showError(withStatus: response.error?.localizedDescription)
+                
+                SVProgressHUD.dismiss(withDelay: 1.8)
             }
             
             if let json = response.value as? [String: Any] {

@@ -7,6 +7,7 @@ target 'The 10 - Adrian' do
 pod 'Alamofire'
 pod 'SDWebImage'
 pod 'YoutubeKit'
+pod 'SVProgressHUD'
   # Pods for The 10 - Adrian
 
 

@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SafariServices
 import YoutubeKit
+import SVProgressHUD
 
 class ViewMovieViewController: UIViewController, UIScrollViewDelegate {
     
@@ -220,6 +221,12 @@ class ViewMovieViewController: UIViewController, UIScrollViewDelegate {
             let videosUrlString = "https://api.themoviedb.org/3/movie/\(movie.id)/videos?api_key=5db508441873a76f31ced3f6eafa0977"
             if let url = URL(string: videosUrlString) {
                 Alamofire.request(url).responseJSON { (response) in
+                    
+                    if let error = response.error {
+                        SVProgressHUD.showError(withStatus: error.localizedDescription)
+                        
+                        SVProgressHUD.dismiss(withDelay: 1.8)
+                    }
                     if let json = response.result.value as? [String: Any] {
                         
                         let videoInfoArray = json["results"] as! [[String:Any]]
@@ -305,6 +312,12 @@ class ViewMovieViewController: UIViewController, UIScrollViewDelegate {
         
             if let url = URL(string: creditsUrlString) {
             Alamofire.request(url).responseJSON { (response) in
+                
+                if let error = response.error {
+                    SVProgressHUD.showError(withStatus: error.localizedDescription)
+                    
+                    SVProgressHUD.dismiss(withDelay: 1.8)
+                }
                     if let json = response.result.value as? [String: Any] {
                     
                         if let runtime = json["runtime"] as? Int {

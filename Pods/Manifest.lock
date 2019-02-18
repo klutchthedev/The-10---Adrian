@@ -3,24 +3,28 @@ PODS:
   - SDWebImage (4.4.5):
     - SDWebImage/Core (= 4.4.5)
   - SDWebImage/Core (4.4.5)
+  - SVProgressHUD (2.2.5)
   - YoutubeKit (0.3.0)
 
 DEPENDENCIES:
   - Alamofire
   - SDWebImage
+  - SVProgressHUD
   - YoutubeKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - SDWebImage
+    - SVProgressHUD
     - YoutubeKit
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YoutubeKit: a00e9eebcb3cfe26d7e233c5f8591dfd0b08f7a0
 
-PODFILE CHECKSUM: 3cd0dea6cd138466531a3010933b9706ee53db65
+PODFILE CHECKSUM: 2d6d09fb7c90f34606b093ad2fab43273aa8e621
 
 COCOAPODS: 1.5.3
