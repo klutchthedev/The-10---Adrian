@@ -19,17 +19,7 @@ struct Movie {
     var rating: Double
     let description: String
     var trailerKey: String?
-//
-//    enum CodingKeys: String, CodingKey {
-//
-//        case posterPath = "poster_path"
-//        case videoPath = "video_path"
-//        case backdrop = "backdrop_path"
-//        case title = "title"
-//        case releaseDate = "release_date"
-//        case rating = "vote_average"
-//        case description = "overview"
-//    }
+
     
     
     init(dictionary: [String:Any]) {
