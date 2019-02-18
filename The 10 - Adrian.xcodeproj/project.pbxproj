@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		40CCE40C22179C8200D86C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE40B22179C8200D86C6B /* AppDelegate.swift */; };
-		40CCE40E22179C8200D86C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE40D22179C8200D86C6B /* ViewController.swift */; };
+		40CCE40E22179C8200D86C6B /* MoviesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE40D22179C8200D86C6B /* MoviesHomeViewController.swift */; };
 		40CCE41122179C8200D86C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCE40F22179C8200D86C6B /* Main.storyboard */; };
 		40CCE41422179C8200D86C6B /* The_10___Adrian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE41222179C8200D86C6B /* The_10___Adrian.xcdatamodeld */; };
 		40CCE41622179C8400D86C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CCE41522179C8400D86C6B /* Assets.xcassets */; };
 		40CCE41922179C8400D86C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCE41722179C8400D86C6B /* LaunchScreen.storyboard */; };
+		40CCE42222179EDF00D86C6B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE42122179EDF00D86C6B /* Movie.swift */; };
+		40CCE42E221887BA00D86C6B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE42D221887BA00D86C6B /* UIView+Extension.swift */; };
+		40CCE433221890B500D86C6B /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE432221890B500D86C6B /* MovieCollectionViewCell.swift */; };
+		40CCE4352218CBE400D86C6B /* ViewMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE4342218CBE400D86C6B /* ViewMovieViewController.swift */; };
+		40CCE43722193CEB00D86C6B /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE43622193CEB00D86C6B /* CrewMember.swift */; };
+		40CCE43922194FDE00D86C6B /* ActorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCE43822194FDE00D86C6B /* ActorCollectionViewCell.swift */; };
+		FC935E44B757A86E57D5ECFA /* Pods_The_10___Adrian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9B27749E75BF29639B7DFA /* Pods_The_10___Adrian.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D76CA7FBDB20620CDB9E1B /* Pods-The 10 - Adrian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The 10 - Adrian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The 10 - Adrian/Pods-The 10 - Adrian.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9B27749E75BF29639B7DFA /* Pods_The_10___Adrian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_The_10___Adrian.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CCE40822179C8200D86C6B /* The 10 - Adrian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The 10 - Adrian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CCE40B22179C8200D86C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40CCE40D22179C8200D86C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40CCE40D22179C8200D86C6B /* MoviesHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesHomeViewController.swift; sourceTree = "<group>"; };
 		40CCE41022179C8200D86C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40CCE41322179C8200D86C6B /* The_10___Adrian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "The_10___Adrian.xcdatamodel"; sourceTree = "<group>"; };
 		40CCE41522179C8400D86C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40CCE41822179C8400D86C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40CCE41A22179C8400D86C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CCE42122179EDF00D86C6B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		40CCE42D221887BA00D86C6B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		40CCE432221890B500D86C6B /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		40CCE4342218CBE400D86C6B /* ViewMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMovieViewController.swift; sourceTree = "<group>"; };
+		40CCE43622193CEB00D86C6B /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
+		40CCE43822194FDE00D86C6B /* ActorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D7E24C8B1CBFD96065AC78C /* Pods-The 10 - Adrian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The 10 - Adrian.release.xcconfig"; path = "Pods/Target Support Files/Pods-The 10 - Adrian/Pods-The 10 - Adrian.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC935E44B757A86E57D5ECFA /* Pods_The_10___Adrian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4312A44E3EA5E68542A7AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D76CA7FBDB20620CDB9E1B /* Pods-The 10 - Adrian.debug.xcconfig */,
+				8D7E24C8B1CBFD96065AC78C /* Pods-The 10 - Adrian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		40CCE3FF22179C8200D86C6B = {
 			isa = PBXGroup;
 			children = (
 				40CCE40A22179C8200D86C6B /* The 10 - Adrian */,
 				40CCE40922179C8200D86C6B /* Products */,
+				1E4312A44E3EA5E68542A7AB /* Pods */,
+				D76104B677A82AC4AA50C86D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,61 @@
 		40CCE40A22179C8200D86C6B /* The 10 - Adrian */ = {
 			isa = PBXGroup;
 			children = (
-				40CCE40B22179C8200D86C6B /* AppDelegate.swift */,
-				40CCE40D22179C8200D86C6B /* ViewController.swift */,
+				40CCE42022179E9D00D86C6B /* Model */,
+				40CCE4312218907700D86C6B /* View */,
+				40CCE42F2218903E00D86C6B /* Controller */,
+				40CCE42C221887A400D86C6B /* Helpers */,
 				40CCE40F22179C8200D86C6B /* Main.storyboard */,
 				40CCE41522179C8400D86C6B /* Assets.xcassets */,
 				40CCE41722179C8400D86C6B /* LaunchScreen.storyboard */,
+				40CCE40B22179C8200D86C6B /* AppDelegate.swift */,
 				40CCE41A22179C8400D86C6B /* Info.plist */,
 				40CCE41222179C8200D86C6B /* The_10___Adrian.xcdatamodeld */,
 			);
 			path = "The 10 - Adrian";
+			sourceTree = "<group>";
+		};
+		40CCE42022179E9D00D86C6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40CCE42122179EDF00D86C6B /* Movie.swift */,
+				40CCE43622193CEB00D86C6B /* CrewMember.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40CCE42C221887A400D86C6B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40CCE42D221887BA00D86C6B /* UIView+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		40CCE42F2218903E00D86C6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40CCE40D22179C8200D86C6B /* MoviesHomeViewController.swift */,
+				40CCE4342218CBE400D86C6B /* ViewMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40CCE4312218907700D86C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40CCE432221890B500D86C6B /* MovieCollectionViewCell.swift */,
+				40CCE43822194FDE00D86C6B /* ActorCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D76104B677A82AC4AA50C86D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B27749E75BF29639B7DFA /* Pods_The_10___Adrian.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40CCE41D22179C8400D86C6B /* Build configuration list for PBXNativeTarget "The 10 - Adrian" */;
 			buildPhases = (
+				07F6E7FDC8315C1308CD30DF /* [CP] Check Pods Manifest.lock */,
 				40CCE40422179C8200D86C6B /* Sources */,
 				40CCE40522179C8200D86C6B /* Frameworks */,
 				40CCE40622179C8200D86C6B /* Resources */,
+				66114A18B2F2139DD44006FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +209,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07F6E7FDC8315C1308CD30DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The 10 - Adrian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66114A18B2F2139DD44006FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-The 10 - Adrian/Pods-The 10 - Adrian-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubeKit/YoutubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The 10 - Adrian/Pods-The 10 - Adrian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40CCE40422179C8200D86C6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CCE40E22179C8200D86C6B /* ViewController.swift in Sources */,
+				40CCE40E22179C8200D86C6B /* MoviesHomeViewController.swift in Sources */,
+				40CCE4352218CBE400D86C6B /* ViewMovieViewController.swift in Sources */,
+				40CCE43722193CEB00D86C6B /* CrewMember.swift in Sources */,
 				40CCE41422179C8200D86C6B /* The_10___Adrian.xcdatamodeld in Sources */,
+				40CCE42222179EDF00D86C6B /* Movie.swift in Sources */,
 				40CCE40C22179C8200D86C6B /* AppDelegate.swift in Sources */,
+				40CCE42E221887BA00D86C6B /* UIView+Extension.swift in Sources */,
+				40CCE43922194FDE00D86C6B /* ActorCollectionViewCell.swift in Sources */,
+				40CCE433221890B500D86C6B /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +417,7 @@
 		};
 		40CCE41E22179C8400D86C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D76CA7FBDB20620CDB9E1B /* Pods-The 10 - Adrian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +430,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.adrian..The-10---Adrian";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		40CCE41F22179C8400D86C6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7E24C8B1CBFD96065AC78C /* Pods-The 10 - Adrian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.adrian..The-10---Adrian";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
